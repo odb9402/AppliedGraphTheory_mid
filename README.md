@@ -1,14 +1,14 @@
 # Finding the Shortest Cycle in Delaunay Graph with Constraint
 
-Mid-term project of PNU graduated course "Applied graph theory" by prof. Cho
+A mid-term project of PNU graduated course "Applied graph theory" by prof. Cho
 
 
 
 ## Problem
 
-Let assume that there is a set of two dimensional points. Delaunay Graph(DG) is defined by using those geometrical points. If there is a cycle on DG, *dist* is defined as the largest value of every shortest path between the cycle and a vertex of DG. 
+Let assume that there is a set of two-dimensional points. Delaunay Graph(DG) is defined by using those geometrical points. If there is a cycle on DG, *dist* is defined as the largest value of every shortest path between the cycle and a vertex of DG. 
 
-We have to minimize the length of cycle on DG with a constraint that *dist* should be shorter than a constraint value. In this project, we consider this problem as Integer Programming with Constraint. We applied Genetic Algorithm to solve the optimization problem.
+We have to minimize the length of a cycle on DG with a constraint that *dist* should be shorter than a constraint value. In this project, we consider this problem as Integer Programming with Constraint. We applied Genetic Algorithm to solve the optimization problem.
 
 
 
@@ -36,7 +36,7 @@ Input file and output file follow the format of the course.
 
 #### Adjust generations for the Genetic Algorithm
 
-In this source there are several parameters to adjust. In the report for the submission, all parameter was fixed as below ( same with the source ). During the test for the algorithm, pop_size and gen_num can be adjusted .
+In this source, there are several parameters to adjust. In the report for the submission, all parameter was fixed as below ( same with the source ). During the test for the algorithm, pop_size and gen_num can be adjusted.
 
 
 
