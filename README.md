@@ -6,6 +6,10 @@ A mid-term project of PNU graduated course "Applied graph theory" by prof. Cho
 
 ## Problem
 
+<p align="center">
+    <img src="https://github.com/odb9402/AppliedGraphTheory_mid/blob/master/examples/150_150_4471_500gen.png?raw=true" alt="description">
+</p>
+
 Let assume that there is a set of two-dimensional points. Delaunay Graph(DG) is defined by using those geometrical points. If there is a cycle on DG, *dist* is defined as the largest value of every shortest path between the cycle and a vertex of DG. 
 
 We have to minimize the length of a cycle on DG with a constraint that *dist* should be shorter than a constraint value. In this project, we consider this problem as Integer Programming with Constraint. We applied Genetic Algorithm to solve the optimization problem.
@@ -14,7 +18,9 @@ We have to minimize the length of a cycle on DG with a constraint that *dist* sh
 
 ## Method
 
-
+<p align="center">
+    <img src="https://github.com/odb9402/AppliedGraphTheory_mid/blob/master/examples/Description.png?raw=true" alt="description">
+</p>
 
 
 
