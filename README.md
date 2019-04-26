@@ -22,6 +22,15 @@ We have to minimize the length of a cycle on DG with a constraint that *dist* sh
 
 Input file and output file follow the format of the course.
 
+#### Python3 dependency
+- deap
+- networkx
+- numpy
+- scipy
+- matplotlib
+
+`pip install deap networkx numpy scipy matplotlib`
+
 #### Set input file name from the source
 
 `P, threshold = read_points("Input_file_name")`
